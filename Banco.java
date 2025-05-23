@@ -23,10 +23,10 @@ public class Banco {
         final int MAX_SAQUES = 3;
         String extrato = "";
 
-        // Scanner para leitura
+        
         Scanner scanner = new Scanner(System.in);
 
-        // Loop principal, agora corretamente dentro de main
+        // Loop principal
         while (true) {
             System.out.print("Digite a opção desejada: ");
             String opcao = scanner.nextLine();
